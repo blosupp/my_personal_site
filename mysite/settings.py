@@ -29,7 +29,8 @@ ALLOWED_HOSTS = [
     'blosup.com',
     'www.blosup.com',
     '127.0.0.1',
-    'localhost'
+    'localhost',
+    '147.45.175.245'
 ]
 
 

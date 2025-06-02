@@ -17,11 +17,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from core.views import coming_soon
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', coming_soon, name='coming_soon'),
+    path('projects/', include('projects.urls')),
 ]

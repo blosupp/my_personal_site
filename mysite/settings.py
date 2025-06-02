@@ -46,6 +46,10 @@ INSTALLED_APPS = [
 
     # 👇 мое приложение
     'core',
+    'users',
+    'blog',
+    'projects',
+    'library',
 ]
 
 MIDDLEWARE = [

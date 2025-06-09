@@ -25,4 +25,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', coming_soon, name='coming_soon'),
     path('projects/', include('projects.urls')),
+    path('blog/', include('blog.urls')),
 ]
